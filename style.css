@@ -84,3 +84,50 @@ body {
 .btn:hover {
   background-color: #ebf3ed;
 }
+.header-title {
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+  text-align: center;
+  color: #d67e35;
+}
+.header-subtitle {
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 92px;
+
+  color: #d67e35;
+}
+.header-secondary-subtitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-top: 12px;
+  color: #ffffff;
+  position: relative;
+}
+.header-secondary-subtitle::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 60px;
+  background-color: #fff;
+  top: 50%;
+  margin-left: 10px;
+}
+.header-secondary-subtitle::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 60px;
+  background-color: #fff;
+  top: 50%;
+  margin-left: calc(-70px);
+}

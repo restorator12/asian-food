@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   /* background-image: url("hero\ image.png"); */
+padding-bottom: 500px;
 }
 .container {
   margin: 0px 166px;
@@ -72,6 +73,10 @@ body {
   display: flex;
   align-items: center;
 }
+.phone-img {
+  margin-right: 8px;
+  margin-top: 2px;
+}
 .button {
   color: #fff;
   text-decoration: none;
@@ -84,6 +89,11 @@ body {
 .btn:hover {
   background-color: #ebf3ed;
 }
+.header-down {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 120px);
+}  
 .header-title {
   font-family: "Tinos";
   font-style: normal;
@@ -92,6 +102,9 @@ body {
   line-height: 57px;
   text-align: center;
   color: #d67e35;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .header-subtitle {
   font-family: "Tinos";
@@ -130,4 +143,67 @@ body {
   background-color: #fff;
   top: 50%;
   margin-left: calc(-70px);
+}
+.header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  margin-top: 21px;
+  transition: color linear 0.3s;
+  background-color: #ff7400;
+  padding: 14px 18px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 16px;
+}
+.header-button {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color linear 0.3s;
+  font-size: 14px; 
+
+}
+.header-btn:hover .header-button {
+  color: #d81d1d;
+}
+.header-btn:hover {
+  background-color: #ebf3ed;
+}
+.menu-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -130px;
+}
+.menu-option-card{
+  padding: 35px;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+background-color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 330px;
+margin: 0 15px;
+
+}
+.card-title {
+  font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+color: #2C2C2C;
+}
+.card-title .gold-label{
+  color: #BC9060;
+}
+.card-description {
+  font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+color: #656363;
+margin-top: 20px;
 }
